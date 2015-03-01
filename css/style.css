@@ -1,0 +1,151 @@
+/*Sticky footer*/
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 30px; /* .push must be the same height as .footer */
+}
+
+/*HEADER*/
+
+#header .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#logo {
+	width: 200px;
+	height: 55px;
+	background: #252525;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#logo a {
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}	
+
+#nav li {
+	padding-top: 15px;
+}
+
+
+#nav li a {
+	padding: 17px 20px;
+}
+
+#nav li a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+.active a:link {
+	border-bottom: 3px solid black;
+}
+
+#nav a {
+	color: #252525;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+#header a {
+	font-family: 'Oswald', sans-serif;
+}
+
+#header hr {
+	margin: 0;
+	border-top: 2px solid #eee;
+}
+
+/*HEADLINE*/
+
+.headline {
+	display: inline-block;
+	margin: 80px 0;
+	border: 1px solid #252525;
+	position: relative;
+}
+
+.headline p {
+	position: absolute;
+	width: 100%;
+	top: -10px;
+}
+
+.headline p span {
+	background-color: #fff;
+	padding: 0 10px;
+}
+
+.headline h1 {
+	padding: 10px;
+}
+
+/*PERSONAL PROFILE*/
+
+#personal-profile li {
+	padding: 13px 0;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#personal-profile li:last-child {
+	border-bottom: none;
+}
+
+
+/*EXPERIENCE*/
+
+.cv-section {
+	position: relative;
+	border-bottom: 2px solid #eee;
+}
+
+.cv-section-title h1 span {
+	position: relative;
+}
+
+.cv-section-title h1 span small {
+	position: absolute;
+	font-size: 12px;
+	left: 0;
+	top: -10px;
+}
+
+.cv-item {
+	border-left: 2px solid #eee;
+}
+
+/*CONTACTFORM*/
+
+#contactform {
+	color: #fff;
+	background-image: url(http://bitpublimedia.ro/themeforest/versus-resume/_content/backgrounds/1920x2000.jpg);
+	background-position: 100% -6px;
+}
+
+#contactform a {
+	color: #fff;
+}
+
+#contactform h3 {
+	margin-bottom: 30px;
+}
+
+#info {
+	margin-bottom: 300px;
+}
+
